@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.conatiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* one Extra Always */
+    grid-template-rows: 10rem 10rem 10rem 10rem 10rem;
+    text-align: center;
+    gap: .5rem;
+}
+/* .conatiner div img{
+width: 200px;
+} */
+.conatiner > div{
+    border: 2px solid black;
+}
+.one{
+    grid-row: 1/3;
+   overflow: hidden;
+}
+
+
+.one img{
+    width: 100% ;
+    height: 100%;
+     transition: 0.5s linear;
+     overflow: hidden;
+}
+.one img:hover{
+   scale: 1.1;
+}
+.two{
+   grid-row: 1/2; 
+}
+.two img{
+     width: 100% ;
+    height: 100%; 
+}
+.three{
+     grid-row: 1/3; 
+}
+.three img{
+     width: 100% ;
+    height: 100%; 
+}
+.four{
+       grid-row: 1/2; 
+}
+.four img{
+     width: 100% ;
+    height: 100%; 
+}
+.five{
+       grid-row: 1/3; 
+}
+.five img{
+     width: 100% ;
+    height: 100%; 
+}
+.six{
+      grid-row: 2/4; 
+}
+.six img{
+     width: 100% ;
+    height: 100%; 
+}
+.eight{
+       grid-row: 3/5;
+}
+.eight img{
+     width: 100% ;
+    height: 100%; 
+}
+.nine{
+       grid-row: 3/5;
+}
+.nine img{
+     width: 100% ;
+    height: 100%; 
+}
+.seven{
+       grid-row: 2/4;
+}
+.seven img{
+     width: 100% ;
+    height: 100%; 
+}
+.ten{
+       grid-row: 4/6;
+}
+.ten img{
+     width: 100% ;
+    height: 100%; 
+}
+.elven{
+    grid-row: 4/6;
+}
+.elven img{
+     width: 100% ;
+    height: 100%; 
+}
+.twelve{
+    grid-row: 4/6; 
+}
+.twelve img{
+     width: 100% ;
+    height: 100%; 
+}
+ .fourteen{
+
+ }
+ .fourteen img{
+    width: 100%;
+    height: 100%;
+ }
+ .fifteen{
+
+ }
+  .fifteen img{
+ width: 100%;
+    height: 100%;
+ }
+
+  .thirdteen{
+
+ }
+  .thirdteen img{
+ width: 100%;
+    height: 100%;
+ }
